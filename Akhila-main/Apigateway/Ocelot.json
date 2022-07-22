@@ -1,0 +1,83 @@
+{
+  "Routes": [
+    {
+      //"UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Admin/getData",
+      "DownstreamScheme": "https",
+      // "ServiceName": "AdminServices",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44378
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/api/gatway/Admin/postData",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Airline/findall",
+      "ServiceName": "Airlineservices",
+      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/gatway/Airline/findall",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Booking/history",
+      "DownstreamScheme": "https",
+      "ServiceName": "Bookingservices",
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 44378
+      //  }
+
+
+      //],
+      "UpstreamPathTemplate": "/api/gatway/Booking/history",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    //{
+    //  "UseServiceDiscovery": true,
+    //  "DownstreamPathTemplate": "/api/1.0/flight/booking",
+    //  "DownstreamScheme": "https",
+    //  "ServiceName": "Bookingservices",
+    //  "UpstreamPathTemplate": "/api/1.0/flight/gateway/booking",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //},
+    {
+      //  "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Search/search",
+      "DownstreamScheme": "https",
+      //  "ServiceName": "Searchservices",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44378
+        }
+      ],
+      "UpstreamPathTemplate": "/api/gatway/Search/search",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Ticket/findall",
+      "DownstreamScheme": "https",
+      "ServiceName": "Ticketservices",
+      "UpstreamPathTemplate": "/api/gatway/Ticket/findall",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    //"BaseUrl": "https://localhost:44327"
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": "8500",
+      "Type": "Consul"
+    }
+  }
+
+}

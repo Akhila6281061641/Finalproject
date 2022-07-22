@@ -1,0 +1,16 @@
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\bin\Debug\netcoreapp2.1\IS4SERVER.deps.json
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\bin\Debug\netcoreapp2.1\IS4SERVER.runtimeconfig.json
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\bin\Debug\netcoreapp2.1\IS4SERVER.runtimeconfig.dev.json
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\bin\Debug\netcoreapp2.1\IS4SERVER.dll
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\bin\Debug\netcoreapp2.1\IS4SERVER.pdb
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.csproj.AssemblyReference.cache
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.AssemblyInfoInputs.cache
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.AssemblyInfo.cs
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.csproj.CoreCompileInputs.cache
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.RazorAssemblyInfo.cache
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.RazorAssemblyInfo.cs
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.RazorTargetAssemblyInfo.cache
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.dll
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.pdb
+C:\Users\cogdotnet927\Downloads\Akhila-main\Akhila-main\IS4SERVER\obj\Debug\netcoreapp2.1\IS4SERVER.genruntimeconfig.cache
